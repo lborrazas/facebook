@@ -1,0 +1,280 @@
+
+
+.facebook-header{
+    z-index: 2;
+    height: 50px;
+    background-color: #3f65b4; 
+    color: white;
+    display:flex;
+    flex-direction: row;
+    padding: 1px;
+    align-items: center;
+    position: fixed;
+    top: 30px;
+    left: 0px;
+    right: 0px;
+}
+
+.facebook-header  i{
+    font-size: 30px;
+}
+
+body{
+    margin: 0;
+    margin-top: 80px;
+    font: normal 12px  Helvetica, sans-serif;
+    margin-bottom: 70px;
+}
+
+.mobile-header{
+    z-index: 2;
+    height: 30px;
+    background-color: #3f65b4;
+    color: white;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1px;
+    font: normal 14px  Helvetica;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.mobile-header .left{
+    flex: 25%;
+    text-align: left;
+}
+
+.mobile-header > .middle{
+    flex: 50%;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.mobile-header > .right {
+    flex: 25%;
+    text-align: right;
+}
+
+
+.facebook-header .left {
+    flex: 10%;
+    text-align: left;
+ }
+
+.facebook-header .search{
+    flex: 80%;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #274780;
+    color: whitesmoke;
+    border: 0;
+    font: normal 20px  Helvetica;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    
+}
+
+
+.facebook-header .right{
+    flex: 10%;
+    text-align: right;
+}
+
+::placeholder{
+    color: #8295c3;
+}
+
+.facebook-header .search:focus{
+    outline: none;
+}
+
+.facebook-footer{
+    background-color: whitesmoke;
+    height: 50px;
+    color:  grey;
+    display:flex;
+    flex-direction: row;
+    padding: 1px;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+}
+
+.facebook-footer > .item{
+    flex: 20%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.facebook-footer >  .item-active{
+    color: #3f65b4;
+}
+
+
+
+
+
+
+
+.facebook-content{
+    overflow: auto;
+}
+
+.facebook-content  .facebook-item{
+    color: grey;
+    border-top: #cbcfd5 10px solid;
+    min-height: 115px;
+    font: normal 20px  Helvetica;
+}
+
+.facebook-item .item-body{
+    min-height: 60px;
+    
+}
+
+ .img-container{
+    background-color: #999;
+    min-height: 300px;
+    max-height: 600px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.img-link{
+    background-color: #f0f1f3;
+    min-height: 50px;
+    padding-left: 15px;
+    font: normal 15px  Helvetica;
+    
+}
+
+.facebook-item .item-text{
+    padding: 15px;
+    color: black;
+    min-height: 30px;
+}
+
+.facebook-item .item-display-box{
+    position: relative;
+    min-height: 40px;
+    background-color: white;
+    font: normal 16px  Helvetica;
+}
+
+.item-display-box .likes{
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+
+.item-display-box .comments{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+.like-comment-share{
+    margin-left: 15px;
+    margin-right: 15px;
+    min-height: 40px;
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    padding: 1px;
+    align-items: center;
+    font: normal 18px  Helvetica;
+    border-top: solid 1px #cbcfd5;
+}
+
+
+.like-comment-share > .like{
+    flex: 33%;
+    text-align: left;
+    padding: 10px;
+}
+
+.like-comment-share >.like:hover{
+    color: #3f65b4;
+}
+
+.like-comment-share >.comment:hover{
+    color: #3f65b4;
+}
+
+.like-comment-share >.share:hover{
+    color: #3f65b4;
+}
+
+
+.like-comment-share > .comment{
+    flex: 33%;
+    text-align: center;
+    padding: 10px;
+}
+
+.like-comment-share > .share{
+    flex: 33%;
+    text-align: right;
+    padding: 10px;
+}
+
+
+
+
+
+
+.facebook-item  .item-header{
+    height: 55px;
+    background-color: white;
+    position: relative;
+}
+
+.item-header  img{
+    border-radius: 50%;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+.item-header  .item-header-main{
+    color: black;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 70px;
+    font: bold 16px  Helvetica ;
+
+}
+
+.item-header  .item-header-secondary{
+    color: grey;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 70px;
+    font: bold 16px  Helvetica ;
+}
+
+.item-header  .item-header-more{
+    color: grey;
+    position: absolute;
+    right: 10px;
+    font: bold 20px  Helvetica ;
+    margin-top: 15px;
+}
+
