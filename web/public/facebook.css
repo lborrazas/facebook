@@ -148,7 +148,7 @@ body{
 
  .img-container{
     background-color: #999;
-    min-height: 300px;
+    min-height: 200px;
     max-height: 600px;
     display: inline-block;
     overflow: hidden;
